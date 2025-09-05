@@ -1,6 +1,6 @@
 require("dotenv").config();
-const { connectToDb } = require("./db");
-const { buildApp } = require("./app");
+const { connectToDb } = require("./src/db");
+const { buildApp } = require("./src/app");
 
 (async () => {
   try {
