@@ -12,6 +12,6 @@ Use your Mongo URI in .env
 ```bash
 git clone https://github.com/udaysonyus/centivo.git
 cd centivo
-# open .env and Use your Mongo URI
+# open .env and Use your Mongo URI (The app throws error if you do not use a valid URI)
 npm install
 npm start
